@@ -1,0 +1,11 @@
+package Task1;
+
+public class BinaryRunner {
+    public static void main(String[] args) {
+        int[] array = {10, 20, 20, 30, 50};
+        System.out.println(binarySearch.binarySearch(array, 30)); // 3
+        System.out.println(binarySearch.binarySearch(array, 20)); // 2
+        System.out.println(binarySearch.binarySearch(array, 40)); // -5
+
+    }
+}
